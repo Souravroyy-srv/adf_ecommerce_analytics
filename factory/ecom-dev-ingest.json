@@ -1,0 +1,15 @@
+{
+	"name": "ecom-dev-ingest",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d5cf8569-b16a-4247-90de-6dfdb9b357d6",
+		"tenantId": "f138c006-8cff-46a4-bbfe-7747405263fe"
+	}
+}
