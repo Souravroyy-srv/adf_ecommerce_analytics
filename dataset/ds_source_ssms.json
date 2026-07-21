@@ -1,0 +1,16 @@
+{
+	"name": "ds_source_ssms",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_ssms",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "meta",
+			"table": "e_commerce_analytics"
+		}
+	}
+}
